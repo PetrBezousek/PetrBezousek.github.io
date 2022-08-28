@@ -1,0 +1,17 @@
+# url: http://www.alexandkealie.com/
+baseurl: ''
+
+# Site settings
+title: "Verča a Petr"
+# email: wedding@pretzlav.com
+description: "Verča a Petr se budou brát"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 3dbbf0
+  secondary: 2f90b9
+  secondary-dark: 333
+
+# Build settings
+markdown: kramdown
+permalink: pretty
