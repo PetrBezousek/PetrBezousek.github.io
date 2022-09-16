@@ -9,30 +9,8 @@ a {
 	text-decoration: none;
 }
 
-.map {
-	height: 350px;
-	/*margin-left: 30px;*/
-}
-
-
-#cats img {
-	max-height: 300px;
-}
-
-#cats .col-md-4, #cats .col-md-6 {
-	margin-top: 20px;
-}
-
 .image-row {
 	margin-top: 20px;
-}
-
-#rsvp {
-	padding-top: 100px;
-}
-
-.header-img {
-	padding-bottom: 50px;
 }
 
 .container img {
@@ -64,14 +42,4 @@ a {
 		margin-bottom: 15px;
 	}
 
-}
-
-section#venue {
-    background-color: #222;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #e8e8e8;
-}
-section#venue h2 {
-	color: #fff;
 }

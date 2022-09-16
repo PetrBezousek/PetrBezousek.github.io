@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
+  <body id="page-top" class="index">
 
-    <body id="page-top" class="index">
+  {% include header.html %}
 
-    {% include header.html %}
+  {% include basic_info.html %}
 
-    {% include basic_info.html %}
+  {% comment %}
+    {% include program.html %}
+    {% include lodging.html %}
+  {% endcomment %}
 
-{% comment %}
-        {% include program.html %}
-        {% include lodging.html %}
-        {% include contact.html %}
-{% endcomment %}
+  {% include footer.html %}
+  {% include js.html %}
 
-
-
-    {% include footer.html %}
-    {% include js.html %}
-
-    </body>
+  </body>
 </html>

@@ -32,7 +32,7 @@
         };
         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
         var marker = new google.maps.Marker({
-          place: { 
+          place: {
             location:  { lat: 37.8237584, lng: -122.2306082 },
             query: "Piedmont Rental Facilities, Piedmont, CA 94611"
           },
@@ -54,7 +54,7 @@
         };
         map = new google.maps.Map(document.getElementById('map-park'), mapOptions);
         marker = new google.maps.Marker({
-          place: { 
+          place: {
             location:  { lat: 37.810755, lng: -122.183519 },
             query: "Joaquin Miller Park, Oakland, CA"
           },
@@ -70,11 +70,4 @@
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>

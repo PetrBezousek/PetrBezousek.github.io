@@ -278,6 +278,14 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+
+    color: white;
+    font-size: 20px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
 }
 
 header .intro-text .intro-lead-in {
@@ -344,10 +352,6 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
-}
-
-section#venue {
-    padding-top: 50px;
 }
 
 .service-heading {
