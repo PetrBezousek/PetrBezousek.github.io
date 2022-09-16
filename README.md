@@ -1,30 +1,23 @@
-Agency Jekyll theme
-====================
+# Wedding site
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+Static site for a wedding powered by jekyll. See the site at http://petraverca.cz.
 
-# How to use
+## Agency Jekyll theme
 
-###Portfolio 
+Agency theme based on [Agency bootstrap theme](https://startbootstrap.com/theme/agency/)
 
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
+### Demo
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+## How to run locally
+
+### Requirements
+
+See instalation guide on [Jekyll docs](https://jekyllrb.com/docs/).
+
+### How-To
+
+```bash
+bundle exec jekyll serve
+```
