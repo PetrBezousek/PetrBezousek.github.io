@@ -11,3 +11,7 @@ color:
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-compress-images
+compress_images:
+  images_path: "img/**/*.{gif,png,jpg,jpeg,svg}"
